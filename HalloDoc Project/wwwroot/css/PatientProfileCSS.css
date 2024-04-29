@@ -56,3 +56,6 @@
 .iti__country-list {
     z-index: 5;
 }
+.validation {
+    color: red;
+}

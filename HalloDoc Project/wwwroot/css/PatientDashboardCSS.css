@@ -49,3 +49,6 @@ tr {
 * {
     font-family: "Inter"!important;
 }
+.validation {
+    color: red;
+}

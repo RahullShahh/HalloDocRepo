@@ -25,6 +25,9 @@
     font-size: 25px;
     border: none;
 }
+.validation {
+    color: red;
+}
 
 [data-bs-theme="dark"] .darkModeShadow {
     box-shadow: 0px 3px 10px #000000 !important;

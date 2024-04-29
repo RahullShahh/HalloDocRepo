@@ -87,6 +87,7 @@ namespace HalloDoc_Project.Controllers
             }
         }
         #endregion
+
         #region PROVIDER LOCATION
         public IActionResult ProviderLocation()
         {
@@ -2738,5 +2739,6 @@ namespace HalloDoc_Project.Controllers
             return RedirectToAction("login_page", "Guest");
         }
         #endregion
+
     }
 }

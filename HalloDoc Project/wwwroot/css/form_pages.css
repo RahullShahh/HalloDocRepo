@@ -9,9 +9,11 @@
     margin: 0 auto;
     /* / color: #fff; / */
 }
+
 * {
-    font-family: "Inter"!important;
+    font-family: "Inter" !important;
 }
+
 #fileLoader {
     position: absolute;
     left: -9999px;
@@ -45,15 +47,29 @@ label[for="fileLoader"] {
     border: 2px solid #10bce9;
 }
 
-.validation{
-    font-size:12px;
-    color:red;
-    font-weight:500;
+.validation {
+    font-size: 12px;
+    color: red;
+    font-weight: 500;
 }
+
+.blueInputBorder {
+    box-shadow: none;
+    border: 2px solid #10bce9;
+}
+
+    .blueInputBorder:focus-within + label {
+        color: #10bce9 !important;
+    }
 
 .t:focus-within + label {
     color: #10bce9 !important;
 }
+
 .iti__country-list {
     z-index: 5;
+}
+
+.validation {
+    color: red;
 }

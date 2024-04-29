@@ -35,3 +35,7 @@
     position:fixed;
     margin-bottom:20px;
 }
+
+.validation {
+    color: red;
+}

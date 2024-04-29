@@ -180,7 +180,7 @@ namespace BAL.Repository
             AdminDashboardViewModel model = new AdminDashboardViewModel()
             {
                 adminRequests = adminRequests,
-                TotalPage = (int)Math.Ceiling(adminRequests.Count() / (double)pagesize)
+                TotalPage = (int)Math.Ceiling(adminRequests.Count() / (double)pagesize),
             };
             return model;
         }
@@ -304,7 +304,7 @@ namespace BAL.Repository
             List<Physician> physician = _context.Physicians.ToList();
             List<Region> regions = _context.Regions.ToList();
             List<Casetag> casetags = _context.Casetags.ToList();
-
+            
             var admin = _context.Admins.FirstOrDefault(a => a.Email == email);
 
             AdminDashboardViewModel advm = new()
@@ -319,7 +319,10 @@ namespace BAL.Repository
                 toclose = _context.Requests.Count(u => u.Status == 7 || u.Status == 3 || u.Status == 8),
                 unpaid = _context.Requests.Count(u => u.Status == 9),
                 Username = admin.Firstname + " " + admin.Lastname
+                
             };
+            
+
             return advm;
         }
 

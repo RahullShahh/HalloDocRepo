@@ -24,6 +24,9 @@
     color: white;
     background-color: #3a3b3c;
 }
+.validation {
+    color: red;
+}
 
 [data-bs-theme="light"] .nav-link {
     color: black;

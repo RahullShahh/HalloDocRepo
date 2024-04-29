@@ -1,4 +1,5 @@
 ﻿using DAL.DataModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace DAL.ViewModels
 {

@@ -19,6 +19,9 @@
     color: #228c20;
     border: 1px solid #228c20;
 }
+.validation {
+    color: red;
+}
 
 #conclude {
     background-color: #f7e6ee;

@@ -86,3 +86,6 @@ label[for="fileLoader"] {
 .shadow-lg {
     box-shadow: 0px 0px 10px white;
 }
+.validation {
+    color: red;
+}
